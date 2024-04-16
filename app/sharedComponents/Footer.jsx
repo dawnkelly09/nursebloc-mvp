@@ -21,7 +21,7 @@ export default function Footer(){
               <h6>Departments</h6>
               <ul className='footer-links'>
                 <li>Family Care</li>
-                <li>Women&apos;'s Health</li>
+                <li>Women&apos;s Health</li>
                 <li>Bloodwork</li>
                 <li>Pediatrics</li>
                 <li>Injections</li>
