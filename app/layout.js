@@ -1,7 +1,7 @@
 import { Space_Grotesk, Elsie, Elsie_Swash_Caps } from "next/font/google";
 import "./globals.css";
 import Footer from './sharedComponents/Footer'
-import Navigation from './sharedComponents/navigation'
+import Navigation from './sharedComponents/Navigation'
 
 const space = Space_Grotesk({ 
   subsets: ["latin"],
