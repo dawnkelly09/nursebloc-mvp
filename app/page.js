@@ -35,6 +35,7 @@ export default function Home() {
               width={500}
               height={500}
               className="heroImage"
+              priority
             />
           </div>
         </div>
