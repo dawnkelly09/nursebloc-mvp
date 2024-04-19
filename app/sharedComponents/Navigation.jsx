@@ -10,7 +10,7 @@ export default function Navigation(){
 
     return (
         <nav className="navbar navbar-expand-lg">
-          <div className="container-fluid nav-logo">
+          <div className="navbar-container nav-logo">
             <Link href="/" passHref legacyBehavior>
               <Image priority src={NurseBlocHoriz} alt="Nursebloc" height="80"/>
             </Link>
