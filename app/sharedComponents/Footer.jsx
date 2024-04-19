@@ -18,7 +18,7 @@ export default function Footer(){
             </div>
         
             <div>
-              <h6>Departments</h6>
+              <h4>Departments</h4>
               <ul className='footer-links'>
                 <li>Family Care</li>
                 <li>Women&apos;s Health</li>
@@ -28,7 +28,7 @@ export default function Footer(){
               </ul>
             </div>
             <div>
-              <h6>Quick Links</h6>
+              <h4>Quick Links</h4>
               <ul className='footer-links'>
                 <li>Our Nurses</li>
                 <li>Appointment</li>

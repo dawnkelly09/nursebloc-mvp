@@ -1,6 +1,11 @@
 import Image from "next/image";
+import Link from 'next/link';
 import styles from "./globals.css"
 import nurseheart from '../public/homePage/nurse-heart.svg'
+import chatbubble from '../public/icons/ChatBubbles.svg'
+import door from '../public/icons/door-icon.svg'
+import rtarrow from '../public/icons/right-arrow-icon.svg'
+import paper from '../public/icons/paper.svg'
 
 const imageStyle = {
   borderRadius: '12px',
@@ -8,7 +13,7 @@ const imageStyle = {
 
 export default function Home() {
   return (
-    <main className="main">
+    <main>
       <section className="heroSection">
         <div className="leftCol">
           <h1>Medical care simplified for everyone</h1>
@@ -22,17 +27,90 @@ export default function Home() {
           </div>
         </div>
         <div className="rightCol">
-          <div className="heroImage">
+          <div >
             <Image 
               src={nurseheart} 
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" 
               alt="smiling nurse with hands in a heart shape" 
               style={imageStyle}
+              width={500}
+              height={500}
+              className="heroImage"
             />
           </div>
         </div>
       </section>
-      <section className="featuresSection">
+      <section className="feature-section">
+        <div className="feature-heading">
+          <h1 className="h1-primary-color">Changing the way you manage your health care</h1>
+        </div>
+        <div className="feature-container">
+          <div className="feature">
+            <Image 
+              src={chatbubble}
+              width='97'
+              height='60'
+              alt='chat bubbles icon'
+            />
+            <span>Online consultations with your nurse</span>
+            <div className="icon-link-container">
+              <Link href="" className="small-link">
+                Learn More 
+                <Image 
+                  src={rtarrow}
+                  width='12'
+                  height=''
+                  alt=''
+                  className="arrow-icon"
+                />
+              </Link>
+            </div>
+          </div>
+
+          <div className="feature">
+            <Image 
+              src={door}
+              width='48'
+              height='60'
+              alt='open door icon'
+            />
+            <span>Healthcare delivered in your home</span>
+            <div className="icon-link-container">
+              <Link href="" className="small-link">
+                Learn More 
+                <Image 
+                  src={rtarrow}
+                  width='12'
+                  height=''
+                  alt=''
+                  className="arrow-icon"
+                />
+              </Link>
+            </div>
+          </div>
+
+          <div className="feature">
+            <Image 
+              src={paper}
+              width='65'
+              height='60'
+              alt='paper icon'
+            />
+            <span>Digital medical records</span>
+            <div className="icon-link-container">
+              <Link href="" className="small-link">
+                Learn More 
+                <Image 
+                  src={rtarrow}
+                  width='12'
+                  height=''
+                  alt=''
+                  className="arrow-icon"
+                />
+              </Link>
+            </div>
+          </div>
+
+        </div>
 
       </section>
       
