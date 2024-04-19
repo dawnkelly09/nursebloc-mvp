@@ -336,6 +336,24 @@ span {
     max-width: 75%;
   }
 
+  .footer-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 24px;
+    background-color: var(--gray);
+  }
+
+  .footer-logo {
+    max-width: 80px;
+  }
+
+  .icons-column {
+    max-width: 20px;
+  }
+
 
 }
 

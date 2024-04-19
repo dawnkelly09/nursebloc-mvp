@@ -13,7 +13,13 @@ export default function Footer(){
         <div className='footer-body'>
             <div>
               <Link href="/" passHref legacyBehavior>
-                <Image priority src={NurseBlocVert} alt="Nursebloc" height="160"/>
+                <Image 
+                  priority 
+                  src={NurseBlocVert} 
+                  alt="Nursebloc" 
+                  height="160"
+                  className='footer-logo'
+                />
               </Link>
             </div>
         
