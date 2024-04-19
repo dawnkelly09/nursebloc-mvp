@@ -291,15 +291,19 @@ span {
   .nav-logo{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    gap: 24px;
-  
-
-    
+    gap: 24px; 
   }
+
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   .heroSection {
     width: 100vw;
     display: flex;

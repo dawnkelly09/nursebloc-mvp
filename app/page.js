@@ -21,8 +21,13 @@ export default function Home() {
           <div className="waitlistBox">
             <h2>Join the Waitlist</h2>
             <div>
-              <button className="button">Nurses</button>
-              <button className="buttonPurple">Patients</button>
+              <Link href="https://app.deform.cc/form/0d0e6722-e24b-4bc4-92d6-1ff9c5db5eb6">
+                <button className="button">Nurses</button>
+              </Link>
+              <Link href="https://app.deform.cc/form/0d0e6722-e24b-4bc4-92d6-1ff9c5db5eb6">
+                <button className="buttonPurple">Patients</button>
+              </Link>
+              
             </div>
           </div>
         </div>
